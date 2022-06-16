@@ -1,0 +1,23 @@
+* {
+    display: inline;
+}
+
+title {
+    display: none;
+}
+
+div {
+    display: inline;
+}
+
+.comment {
+    display: none;
+}
+
+div:hover  .replies{
+    display: none;
+}
+  
+div:hover .comment {
+    display: inline;
+}
