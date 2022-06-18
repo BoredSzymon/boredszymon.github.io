@@ -16,4 +16,9 @@ div:hover  .replies{
   
 div:hover .comment {
     display: inline;
+    text-decoration: none;
+}
+
+div:hover .comment:visited {
+    color: blue;
 }
